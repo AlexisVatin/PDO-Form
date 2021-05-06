@@ -8,6 +8,8 @@
       <p><input type="text" name="firstname" placeholder="Prenom"></p>
       <p><input type="text" name="lastname" placeholder="nom"></p>
       <p><input type="submit" name="insert" value="Insérer"></p>
+      <p><a href="/">Retour</a></p>
+
     </form>
   </body>
 </html>
