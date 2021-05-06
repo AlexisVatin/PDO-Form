@@ -19,4 +19,3 @@ $conn->query($sql);
 
 echo "User $rowID clicked \n";
 echo $sql; 
-
