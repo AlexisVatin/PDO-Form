@@ -22,7 +22,7 @@ if(isset($_POST['insert'])){
   // vérifier si la requête d'insertion a réussi
   if($exec){
     echo 'Données insérées';?>
-    <p><a href="form/">Retour</a></p>
+    <p><a href="/form">Retour</a></p>
    <?php
   }else{
     echo "Échec de l'opération d'insertion";
