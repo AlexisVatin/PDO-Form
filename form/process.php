@@ -2,7 +2,8 @@
 $host = 'localhost';
 $dbname = 'testcount';
 $username = 'root';
-$password = '';
+$password = 'g';
+
 if(isset($_POST['insert'])){
   try {
   // se connecter à mysql
@@ -20,7 +21,9 @@ if(isset($_POST['insert'])){
   $exec = $res->execute(array(":firstname"=>$firstname,":lastname"=>$lastname));
   // vérifier si la requête d'insertion a réussi
   if($exec){
-    echo 'Données insérées';
+    echo 'Données insérées';?>
+    <p><a href="form/">Retour</a></p>
+   <?php
   }else{
     echo "Échec de l'opération d'insertion";
   }

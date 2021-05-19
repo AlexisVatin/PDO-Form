@@ -16,7 +16,7 @@ function my_button ( $user_id ){
              alert( data );
                 },
         error   : function (xhr){
-             alert( "error" );
+             alert( "error");
                 }
         });
 }
